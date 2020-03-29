@@ -4,7 +4,7 @@ Problem By FullThrottle Labs
 
 API endpoint for getting all users details : http://riteshm.pythonanywhere.com/api/v1/user/
 
-API endpoint for getting specific user details : http://riteshm.pythonanywhere.com/api/v1/user/<<id>>
+API endpoint for getting specific user details : http://riteshm.pythonanywhere.com/api/v1/user/ID
 
 This Django App exposes API endpoint for getting user details like user ID, Name, Activity Periods, etc as json response. The application is written using django rest_framework and Faker Library to generate dummy user data.
 
