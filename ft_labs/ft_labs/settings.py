@@ -77,8 +77,11 @@ WSGI_APPLICATION = 'ft_labs.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'riteshm$ft_labs',
+        'USER': 'riteshm',
+        'PASSWORD': '--12Unowhoim',
+        'HOST': 'riteshm.mysql.pythonanywhere-services.com',
     }
 }
 
