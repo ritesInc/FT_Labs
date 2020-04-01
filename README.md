@@ -36,7 +36,10 @@ Both function is responding to GET method only.
   Module 'filler.py' is responsible for generating fake data using Faker class, by-default it will create 2 users data, you can change it by updating the value of members variable while calling.
   </li>
   <li>
-    Execute <i>python manage.py set_user_activity_period</i> to before checking the API, this command will fill the data in MySQL database.
+    Execute <i>python manage.py set_user_activity_period</i> before checking the API, this command will fill the data in MySQL database.
+  </li>
+  <li>
+     <b>set_user_activity_period</b> is the custom django management command which uses filler.py module to fill database with Fake values using Faker.
   </li>
   </ol>
   
